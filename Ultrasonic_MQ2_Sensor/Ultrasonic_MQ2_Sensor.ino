@@ -24,15 +24,6 @@ void setup() {
   // Setup LCD
   lcd.init();
   lcd.backlight();
-  
-  // Opening
-  lcd.setCursor(0, 0);
-  lcd.print("System Starting");
-  lcd.setCursor(0, 1);
-  lcd.print("Wait a minute...");
-  delay(2000);
-  lcd.clear();
-}
 
 void loop() {
   // Baca Sensor Ultrasonic
