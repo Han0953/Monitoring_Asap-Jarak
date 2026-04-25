@@ -24,6 +24,7 @@ void setup() {
   // Setup LCD
   lcd.init();
   lcd.backlight();
+}
 
 void loop() {
   // Baca Sensor Ultrasonic
